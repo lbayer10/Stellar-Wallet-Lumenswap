@@ -6,9 +6,9 @@ services:
       dockerfile: Dockerfile-client
     ports:
       - "8000:80"
-  # lumenswap:
-  #   build:
-  #     context: .
-  #     dockerfile: Dockerfile-lumenswap
-  #   ports:
-  #     - "3000:3000"
+  lumenswap:
+    build:
+      context: .
+      dockerfile: Dockerfile-lumenswap
+    ports:
+      - "3000:3000"
